@@ -7,30 +7,38 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-            String word = scanner.nextLine();
-        System.out.println(method(word));
+        Person person = new Person();
+
+        person.age = 32;
+        person.name= "Bakai";
+        person.rost = 179;
+        person.ves = 92;
+        System.out.println("My name is " + person.name);
+        System.out.println( "moi ves sostavliaet " + person.ves + " kg");
+        System.out.println( "Mne " + person.age + " goda");
+        System.out.println("moi rost sostavliaet" + person.rost + " sm");
+    }
+        /*Scanner scanner =new Scanner(System.in);
+        int number1 = scanner. nextInt();
+        int number2 = 0;
+        while(number1>0) {
+            number1/=10;
+            number2++;
 
         }
-       public static boolean method(String word) {
-          int count = 0;
-           for (int i = 0; i < word.length(); i++) {
-               if(word.charAt(i) == 'e'){
+        System.out.println(number2);
 
-                   return true;
-               }
-               else{
-                   return false;
-               }
-
-           }
-
-            return false;
-        }
+}*/
 }
+ class Person {
+    String name;
+    int age;
+    int rost;
+    int ves;
+
+ }
+
 
 
 
