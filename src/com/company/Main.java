@@ -19,9 +19,7 @@ public class Main {
 //        System.out.println(laptop.memori);
 //        System.out.println(laptop.model);
 //        System.out.println(laptop.owner);
-        public static void method(Person person) {
-            System.out.println("Bul adam jonundo maalymat");
-        }
+
 
     }
 
